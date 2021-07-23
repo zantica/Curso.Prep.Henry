@@ -1,0 +1,23 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+Las variables son formas de almacenar datos que podemos usar más tarde, encontramos 3 tipos de variables:
+1- var: Su alcance es más global. Se dejó de usar con la nueva actualizacion.
+2- let: El alcance de esta variable está limitado por el scope o ambito de la variable. Se implementó en la ultima actualizacion de JS (EcmaScript 6)
+3- const: es una variable que su valor no puede cambiar. También se implementó en ES6.
+
+Estas variables pueden almacenar 3 tipos de valores. Strings, numbers y booleans
+Siendo "Strings" cadenas de texto, donde siempre van a ser indicadas entre comillas simples o dobles. Los "Booleans" nos van a devolver true o false, admite solo 2 valores.
+
+Funciones:
+Son importantes en todos los lenguajes de programación, las funciones realizarán una tarea indicada. Están formadas por la palabra "function" + nombre de la función + () +{} dentro de las llaves "{}" irá el codigo que ejecutará la función.
+El argumento va a ser el valor ingresado para que dicha función ejecute el código y nos devuelva algo con "return", return se utiliza para finalizar la ejecución de la función y retornar un resultado.
+
+Declaraciones "if" :
+La declaración if nos va a permitir validar algo y ejecutar codigo que cumpla con ese requisito. Esto nos va a permitir controlar el flujo de del programa (de arriba hacia abajo).
