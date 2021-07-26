@@ -1,0 +1,23 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+For es un bucle determinado, quiere decir que podemos indicarle cuantas "vueltas" debe dar. La forma de escribirse es :
+for (let i = 0 ; i<10; i++){
+
+}
+
+llamamos al bucle, luego entre parentesis, definimos la variable, damos un parametro de cuantas veces girar y luego incrementamos la variable para que llegue al parametro de giro. Abrimos llaves y escribimos el codigo que queremos ejecutar en cada vuelta de bucle.
+
+Estos 3 son los llamados operadores lógicos, se usan para combinar expresiones y ver si es true o false.
+
+&&:
+Es el operador AND, se usa para evaluar dos o mas expresiones, para ser true, ambas deben ser verdaderas, de lo contrario devuelve false.
+
+||:
+Operador OR, donde comparamos expresiones y determina si una u otra, o ambas son verdaderas devolverá true. Devuelve false si ambas son falsas. 
+
+
+!:
+Operador NOT devuelve el booleano opuesto.
