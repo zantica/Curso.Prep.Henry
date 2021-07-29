@@ -1,0 +1,11 @@
+1- En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* prototype
+* Constructors (de Clases)
+
+2- Desde la carpeta Prep en la carpeta donde clonaste el repo, ingresa el comando npm test JSV.test.js para correr los tests automatizados. Al principio, todos los tests estarán fallados/rotos. Encontrarás las funciones para hacer pasar los tests en el archivo homework.js.
+
+1- Para entender "Prototype" debemos saber que nuestra computadora posee memoria que va a ser usada para ejecutar distintas funciones. Lo que hace esta propiedad (prototype) es permitirnos usar las propiedades de una funcion las veces que querramos sin repetir el código, ahorrando memoria en la computadora.
+
+Constructors de clases :
+Javascript nos da la posibilidad de usar Constructors (class) para crear un objeto principal y usarlo de plantilla para un futuro. Se instancia usando la palabra guardada "new", ej : const santi = new Persona("Santiago","Carrizo","Rosario"). Encontramos la palabra this que nos selecciona la propiedad que queremos usar, ej: this.nombre = nombre
